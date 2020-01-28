@@ -43,6 +43,10 @@ public class MyLinkedList<E> implements LinkedListADT<E> {
 
     }
 
+    private E removeFirst() {
+        return null;
+    }
+
     @Override
     public E remove(E item) {
         return null;
