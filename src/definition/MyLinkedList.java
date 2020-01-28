@@ -14,6 +14,10 @@ public class MyLinkedList<E> implements LinkedListADT<E> {
     private Node<E> head = null;
     private int size = 0;
 
+    private Node<E> getNode(int index) {
+
+    }
+
     private void addFirst(E item) {
 
     }
