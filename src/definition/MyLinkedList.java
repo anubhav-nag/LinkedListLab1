@@ -49,11 +49,11 @@ public class MyLinkedList<E> implements LinkedListADT<E> {
             this.data = data;
         }
 
-        public E getData() {
+        private E getData() {
             return data;
         }
 
-        public Node<E> getNext() {
+        private Node<E> getNext() {
             return next;
         }
     }
