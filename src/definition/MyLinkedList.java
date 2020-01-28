@@ -22,6 +22,10 @@ public class MyLinkedList<E> implements LinkedListADT<E> {
 
     }
 
+    public void add(int index, E item) {
+
+    }
+
     @Override
     public void add(E item) {
 
