@@ -52,7 +52,8 @@ public class MyLinkedList<E> implements LinkedListADT<E> {
     }
 
     private E removeAfter(Node<E> node) {
-        return null;
+        E response = null;
+        return response;
     }
 
     @Override
