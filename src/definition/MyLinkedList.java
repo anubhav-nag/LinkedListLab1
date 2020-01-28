@@ -18,6 +18,10 @@ public class MyLinkedList<E> implements LinkedListADT<E> {
 
     }
 
+    private void addAfter(Node<E> node, E item) {
+
+    }
+
     @Override
     public void add(E item) {
 
