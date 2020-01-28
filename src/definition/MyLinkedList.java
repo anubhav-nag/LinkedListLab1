@@ -15,7 +15,8 @@ public class MyLinkedList<E> implements LinkedListADT<E> {
     private int size = 0;
 
     private Node<E> getNode(int index) {
-        return null;
+        Node<E> response = null;
+        return response;
     }
 
     public E get(int index) {
