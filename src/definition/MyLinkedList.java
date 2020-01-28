@@ -18,6 +18,10 @@ public class MyLinkedList<E> implements LinkedListADT<E> {
         return null;
     }
 
+    public E get(int index) {
+        return null;
+    }
+
     private void addFirst(E item) {
 
     }
