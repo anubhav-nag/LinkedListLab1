@@ -48,5 +48,13 @@ public class MyLinkedList<E> implements LinkedListADT<E> {
         private Node(E data) {
             this.data = data;
         }
+
+        public E getData() {
+            return data;
+        }
+
+        public Node<E> getNext() {
+            return next;
+        }
     }
 }
