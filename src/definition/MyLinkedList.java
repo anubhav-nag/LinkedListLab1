@@ -47,7 +47,8 @@ public class MyLinkedList<E> implements LinkedListADT<E> {
     }
 
     private E removeFirst() {
-        return null;
+        E response = null;
+        return response;
     }
 
     private E removeAfter(Node<E> node) {
