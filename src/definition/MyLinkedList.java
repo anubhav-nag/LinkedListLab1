@@ -25,7 +25,8 @@ public class MyLinkedList<E> implements LinkedListADT<E> {
     }
 
     public E set(int index, E newValue) {
-        return null;
+        E response = null;
+        return response;
     }
 
     private void addFirst(E item) {
