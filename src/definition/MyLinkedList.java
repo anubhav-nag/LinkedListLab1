@@ -11,6 +11,8 @@ import adt.LinkedListADT;
 
 public class MyLinkedList<E> implements LinkedListADT<E> {
 
+    private Node<E> head = null;
+
     @Override
     public void add(E item) {
 
