@@ -20,7 +20,8 @@ public class MyLinkedList<E> implements LinkedListADT<E> {
     }
 
     public E get(int index) {
-        return null;
+        E response = null;
+        return response;
     }
 
     public E set(int index, E newValue) {
