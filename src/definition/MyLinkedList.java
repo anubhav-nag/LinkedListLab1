@@ -35,4 +35,8 @@ public class MyLinkedList<E> implements LinkedListADT<E> {
     public void print() {
 
     }
+
+    private static class Node<E> {
+
+    }
 }
