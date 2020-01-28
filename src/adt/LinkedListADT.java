@@ -8,5 +8,7 @@
 package adt;
 
 public interface LinkedListADT<E> {
-    public abstract void add(E item);
+    void add(E item);
+
+    E remove(E item);
 }
