@@ -44,7 +44,8 @@ public class MyLinkedList<E> implements LinkedListADT<E> {
     }
 
     private void addAfter(Node<E> node, E item) {
-
+        node.next = new Node<>(item, node.getNext());
+        size++;
     }
 
     public void add(int index, E item) {
