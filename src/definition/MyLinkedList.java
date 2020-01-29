@@ -49,7 +49,13 @@ public class MyLinkedList<E> implements LinkedListADT<E> {
     }
 
     public void add(int index, E item) {
-
+        if (index < 0 || index > size) {
+            throw new IndexOutOfBoundsException(Integer.toString(index));
+        } else if (index == 0) {
+            addFirst(item);
+        } else {
+            addAfter(getNode(index - 1), item);
+        }
     }
 
     @Override
