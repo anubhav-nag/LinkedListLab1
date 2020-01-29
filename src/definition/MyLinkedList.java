@@ -73,7 +73,8 @@ public class MyLinkedList<E> implements LinkedListADT<E> {
 
     @Override
     public void print() {
-
+        System.out.println("[");
+        System.out.println("]");
     }
 
     private static class Node<E> {
