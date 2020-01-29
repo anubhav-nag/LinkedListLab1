@@ -16,6 +16,15 @@ public class MyLinkedList<E> implements LinkedListADT<E> {
 
     private Node<E> getNode(int index) {
         Node<E> response = null;
+        if (index < 0 || index >= size) {
+            throw new IndexOutOfBoundsException(Integer.toString(index));
+        } else {
+            Node<E> temp = head;
+            for (int i = 0; i < index && temp != null; i++) {
+                temp = temp.getNext();
+            }
+            response = temp;
+        }
         return response;
     }
 
