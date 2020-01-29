@@ -39,7 +39,8 @@ public class MyLinkedList<E> implements LinkedListADT<E> {
     }
 
     private void addFirst(E item) {
-
+        head = new Node<>(item, head);
+        size++;
     }
 
     private void addAfter(Node<E> node, E item) {
@@ -83,6 +84,10 @@ public class MyLinkedList<E> implements LinkedListADT<E> {
     @Override
     public void print() {
         System.out.println("[");
+        for (int i = 0; i < size; i++) {
+            E data = this.getNode(i).getData();
+            System.out.println(data + (i < size - 1 ? " , " : " "));
+        }
         System.out.println("]");
     }
 
